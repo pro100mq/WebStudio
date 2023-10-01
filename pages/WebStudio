@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="">WebStudio</a>
+        <ul>
+          <li><a href="">Студія</a></li>
+          <li><a href="">Портфоліо</a></li>
+          <li><a href="">Контакти</a></li>
+        </ul>
+        <ul>
+          <li><address><a href="">info@devstudio.com</a></address></li>
+          <li><address><a href="">+38 096 111 11 11</a></address></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- Hero -->
+      <section>
+        <h1>Ефективні рішення для вашого бізнесу</h1>
+        <button type="button">
+            Замовити послугу
+        </button>
+      </section>
+
+      <!-- information -->
+      <section>
+        <ul>
+          <li>
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>
+              Ідейні міркування, і навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li>
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li>
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- work -->
+      <section>
+        <h2>Чим ми займаємося</h2>
+        <ul>
+          <li>
+            <img src="../img/img.webp" alt="Work1">
+          </li>
+          <li>
+            <img src="../img/img1.webp" alt="Work2">
+          </li>
+          <li>
+            <img src="../img/img2.webp" alt="Work3">
+          </li>
+        </ul>
+      </section>
+
+      <!-- team -->
+      <section>
+        <h2>Наша команда</h2>
+        <ul>
+            <li>
+                <article>
+                    <img src="../img/img3.webp" alt="Worker1">
+                    <h3>Ігор Дем'яненко</h3>
+                    <p>Product Designer</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="../img/img4.webp" alt="Worker2">
+                    <h3>Ольга Рєпіна</h3>
+                    <p>Frontend Developer</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="../img/img5.webp" alt="Worker3">
+                    <h3>Микола Тарасов</h3>
+                    <p>Marketing</p>
+                </article>
+            </li>
+            <li>
+                <article>
+                    <img src="../img/img6.webp" alt="Worker4">
+                    <h3>Михайло Єрмаков</h3>
+                    <p>UI Designer</p>
+                </article>
+            </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+        <h2>WebStudio</h2>
+        <address>
+            <p>м. Київ, пр-т Лесі Українки, 26</p>
+            <p>info@devstudio.com</p>
+            <p>+38 096 111 11 11</p>
+        </address>
+    </footer>
+  </body>
+</html>
