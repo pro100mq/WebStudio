@@ -5,3 +5,11 @@
     --background-color-ourteam: #F5F4FA;
     --additional-text-color: #757575;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-title {
+    font-family: 'Raleway', sans-serif;
+}
