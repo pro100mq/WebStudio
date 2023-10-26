@@ -1,0 +1,140 @@
+:root {
+  --accent-color: #ffffff;
+  --text-color: #212121;
+  --background-color-accent: #2f303a;
+  --background-color-ourteam: #f5f4fa;
+  --additional-text-color: #757575;
+  --hover-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.site-title {
+  font-family: "Raleway", sans-serif;
+  color: var(--text-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.03em;
+}
+
+.header-link{
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+
+.header-email, .header-phone {
+  color: var(--additional-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+
+.hero-section {
+  background-color: var(--background-color-accent);
+}
+
+.hero-title {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  color: var(--accent-color);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.02em;
+  width: 216px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--hover-color);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+.info-title {
+    color: var(--text-color);
+font-size: 14px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+}
+
+.info-text {
+    color: var(--additional-text-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.work-title {
+    color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.05em;
+}
+
+.our-team-title {
+    color: var(--text-color);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.05em;
+}
+
+.team-name {
+    color: var(--text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.03em;
+}
+
+.team-job {
+    color: var(--additional-text-color);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.04em;
+}
+
+footer {
+    background-color: var(--background-color-accent);
+}
+
+.footer-address {
+    color: var(--accent-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+
+.footer-email, .footer-phone {
+    color: var(--additional-text-color);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
