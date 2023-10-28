@@ -38,9 +38,24 @@ body {
   letter-spacing: 0.02em;
 }
 
-.header-email,
-.header-phone {
+.header-link:hover {
+  color: var(--hover-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts {
   color: var(--additional-text-color);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02em;
+}
+
+.header-contacts:hover {
+  color: var(--hover-color);
   font-size: 14px;
   font-weight: 500;
   line-height: normal;
