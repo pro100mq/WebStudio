@@ -5,19 +5,46 @@
   --background-color-ourteam: #f5f4fa;
   --additional-text-color: #757575;
   --hover-color: #2196f3;
+  --logo-text-color: #000;
 }
 
 body {
   font-family: "Roboto", sans-serif;
 }
 
-.site-title {
-  font-family: "Raleway", sans-serif;
-  color: var(--text-color);
+.item-blue{
+  color: var(--hover-color);
   font-size: 26px;
-  font-weight: 700;
+  font-family: Raleway;
   line-height: normal;
+  font-weight: 700;
   letter-spacing: 0.03em;
+}
+
+.item-black{
+  color: var(--logo-text-color);
+  font-size: 26px;
+  font-family: Raleway;
+  line-height: normal;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.item-grey{
+  color: var(--additional-text-color);
+font-size: 14px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.02em;
+}
+
+.item-black2{
+  color: var(--text-color);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.28px;
+  line-height: normal;
+  letter-spacing: 0.02em;
 }
 
 .header-link {
