@@ -13,6 +13,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  outline: solid 2px red;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .header-logo1 {
   color: var(--hover-color);
   font-size: 26px;
