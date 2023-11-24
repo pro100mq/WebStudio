@@ -20,6 +20,11 @@ body {
   padding: 0 15px;
 }
 
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .header-logo1 {
   color: var(--hover-color);
   font-size: 26px;
@@ -74,6 +79,11 @@ body {
 
 
 /* Hero Section */
+
+.hero-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .hero-button {
   color: var(--text-color);
