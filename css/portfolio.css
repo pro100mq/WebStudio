@@ -131,6 +131,8 @@ body {
 
 footer {
   background-color: var(--background-color-accent);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo1 {

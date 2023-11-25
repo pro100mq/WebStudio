@@ -79,6 +79,8 @@ body {
 
 .hero-section {
   background-color: var(--background-color-accent);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-title {
@@ -183,6 +185,8 @@ body {
 
 footer {
   background-color: var(--background-color-accent);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .footer-logo1 {
