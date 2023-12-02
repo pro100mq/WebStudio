@@ -95,8 +95,8 @@ body {
 
 .hero-section {
   background-color: var(--background-color-accent);
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-container {
@@ -287,6 +287,7 @@ footer {
   word-wrap: break-word;
   font-style: normal;
   margin-bottom: 9px;
+  display: block;
 }
 
 .footer-email {
@@ -295,6 +296,7 @@ footer {
   font-weight: 400;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  display: block;
   margin-bottom: 9px;
 }
 
